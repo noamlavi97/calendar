@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="650.0" maxWidth="1050.0" minHeight="650.0" minWidth="1050.0" prefHeight="650.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calendar.CalendarController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="100.0" maxWidth="1050.0" minHeight="100.0" minWidth="1050.0" prefHeight="100.0" prefWidth="1050.0">
+         <children>
+            <TextField fx:id="yearTextArea" maxHeight="50.0" maxWidth="200.0" minHeight="50.0" minWidth="200.0" prefHeight="50.0" prefWidth="200.0" promptText="Enter year" translateX="-100.0" translateY="50.0" />
+            <Button fx:id="saveYearButton" maxHeight="50.0" maxWidth="200.0" minHeight="50.0" minWidth="200.0" mnemonicParsing="false" onAction="#saveYearButtonPressed" prefHeight="50.0" prefWidth="200.0" text="Save year" textAlignment="CENTER" translateX="-100.0" translateY="50.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="monthComboBox" maxHeight="100.0" maxWidth="200.0" minHeight="100.0" minWidth="200.0" onAction="#monthComboBoxChanged" prefHeight="100.0" prefWidth="200.0" promptText="Select month" translateX="100.0" translateY="-50.0" />
+         </children></VBox>
+      <VBox alignment="CENTER" maxHeight="200.0" maxWidth="1050.0" minHeight="200.0" minWidth="1050.0" prefHeight="200.0" prefWidth="1050.0">
+         <children>
+            <TextArea fx:id="ActivitiesTextArea" maxHeight="170.0" maxWidth="1050.0" minHeight="170.0" minWidth="1050.0" prefHeight="170.0" prefWidth="1050.0" promptText="Activities today" />
+            <Button fx:id="saveActivitiesButton" maxHeight="30.0" maxWidth="200.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" onAction="#saveActivitiesButtonPressed" prefHeight="30.0" prefWidth="200.0" text="Save activities" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox maxHeight="350.0" maxWidth="1050.0" minHeight="350.0" minWidth="1050.0" prefHeight="350.0" prefWidth="1050.0">
+         <children>
+            <GridPane maxHeight="250.0" maxWidth="1050.0" minHeight="350.0" minWidth="1050.0" prefHeight="350.0" prefWidth="1050.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="Button00" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button00Click" prefHeight="50.0" prefWidth="150.0" text="Button00" GridPane.rowIndex="1" />
+                  <Button fx:id="Button01" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button01Click" prefHeight="50.0" prefWidth="150.0" text="Button01" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="Button22" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button22Click" prefHeight="50.0" prefWidth="150.0" text="Button22" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="Button03" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button03Click" prefHeight="50.0" prefWidth="150.0" text="Button03" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="Button02" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button02Click" prefHeight="50.0" prefWidth="150.0" text="Button02" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="Button30" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button30Click" prefHeight="50.0" prefWidth="150.0" text="Button30" GridPane.rowIndex="4" />
+                  <Button fx:id="Button31" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button31Click" prefHeight="50.0" prefWidth="150.0" text="Button31" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="Button52" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button52Click" prefHeight="50.0" prefWidth="150.0" text="Button52" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="Button51" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button51Click" prefHeight="50.0" prefWidth="150.0" text="Button51" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="Button40" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button40Click" prefHeight="50.0" prefWidth="150.0" text="Button40" GridPane.rowIndex="5" />
+                  <Button fx:id="Button53" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button53Click" prefHeight="50.0" prefWidth="150.0" text="Button53" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="Button33" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button33Click" prefHeight="50.0" prefWidth="150.0" text="Button33" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="Button41" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button41Click" prefHeight="50.0" prefWidth="150.0" text="Button41" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="Button50" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button50Click" prefHeight="50.0" prefWidth="150.0" text="Button50" GridPane.rowIndex="6" />
+                  <Button fx:id="Button43" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button43Click" prefHeight="50.0" prefWidth="150.0" text="Button43" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="Button42" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button42Click" prefHeight="50.0" prefWidth="150.0" text="Button42" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="Button20" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button20Click" prefHeight="50.0" prefWidth="150.0" text="Button20" GridPane.rowIndex="3" />
+                  <Button fx:id="Button11" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button11Click" prefHeight="50.0" prefWidth="150.0" text="Button11" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="Button10" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button10Click" prefHeight="50.0" prefWidth="150.0" text="Button10" GridPane.rowIndex="2" />
+                  <Button fx:id="Button21" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button21Click" prefHeight="50.0" prefWidth="150.0" text="Button21" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="Button32" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button32Click" prefHeight="50.0" prefWidth="150.0" text="Button32" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="Button12" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button12Click" prefHeight="50.0" prefWidth="150.0" text="Button12" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="Button23" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button23Click" prefHeight="50.0" prefWidth="150.0" text="Button23" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="Button13" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button13Click" prefHeight="50.0" prefWidth="150.0" text="Button13" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="Button24" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button24Click" prefHeight="50.0" prefWidth="150.0" text="Button24" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="Button14" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button14Click" prefHeight="50.0" prefWidth="150.0" text="Button14" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="Button34" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button34Click" prefHeight="50.0" prefWidth="150.0" text="Button34" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="Button44" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button44Click" prefHeight="50.0" prefWidth="150.0" text="Button44" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="Button54" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button54Click" prefHeight="50.0" prefWidth="150.0" text="Button54" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="Button04" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button04Click" prefHeight="50.0" prefWidth="150.0" text="Button04" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Button fx:id="Button15" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button15Click" prefHeight="50.0" prefWidth="150.0" text="Button15" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button fx:id="Button25" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button25Click" prefHeight="50.0" prefWidth="150.0" text="Button25" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button fx:id="Button35" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button35Click" prefHeight="50.0" prefWidth="150.0" text="Button35" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="Button05" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button05Click" prefHeight="50.0" prefWidth="150.0" text="Button05" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Button fx:id="Button45" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button45Click" prefHeight="50.0" prefWidth="150.0" text="Button45" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="Button55" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button55Click" prefHeight="50.0" prefWidth="150.0" text="Button55" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="Button06" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button06Click" prefHeight="50.0" prefWidth="150.0" text="Button06" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Button fx:id="Button16" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button16Click" prefHeight="50.0" prefWidth="150.0" text="Button16" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button fx:id="Button26" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button26Click" prefHeight="50.0" prefWidth="150.0" text="Button26" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button fx:id="Button36" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button36Click" prefHeight="50.0" prefWidth="150.0" text="Button36" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button fx:id="Button46" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button46Click" prefHeight="50.0" prefWidth="150.0" text="Button46" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button fx:id="Button56" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#button56Click" prefHeight="50.0" prefWidth="150.0" text="Button56" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Sunday" textAlignment="CENTER">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Monday" textAlignment="CENTER" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Tuesday" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Wednesday" textAlignment="CENTER" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Thursday" textAlignment="CENTER" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Friday" textAlignment="CENTER" GridPane.columnIndex="5">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="50.0" maxWidth="150.0" minHeight="50.0" minWidth="150.0" prefHeight="50.0" prefWidth="150.0" text="Saturday" textAlignment="CENTER" GridPane.columnIndex="6">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</VBox>
