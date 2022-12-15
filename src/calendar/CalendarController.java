@@ -169,382 +169,212 @@ public class CalendarController {
 
     @FXML
     void button00Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
-    
+        buttonXXClick(0,0);
     }
 
     @FXML
     void button01Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+         buttonXXClick(0,1);
     }
 
     @FXML
     void button02Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(0,2);
     }
 
     @FXML
     void button03Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(0,3);
     }
 
     @FXML
     void button04Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(0,4);
     }
 
     @FXML
     void button05Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(0,5);
     }
 
     @FXML
     void button06Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[0][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(0,6);
     }
 
     @FXML
     void button10Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,0);
     }
 
     @FXML
     void button11Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,1);
     }
 
     @FXML
     void button12Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,2);
     }
 
     @FXML
     void button13Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,3);
     }
 
     @FXML
     void button14Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,4);
     }
 
     @FXML
     void button15Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,5);
     }
 
     @FXML
     void button16Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[1][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(1,6);
     }
 
     @FXML
     void button20Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,0);
     }
 
     @FXML
     void button21Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,1);
     }
 
     @FXML
     void button22Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,2);
     }
 
     @FXML
     void button23Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,3);
     }
 
     @FXML
     void button24Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,4);
     }
 
     @FXML
     void button25Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,5);
     }
 
     @FXML
     void button26Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[2][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(2,6);
     }
 
     @FXML
     void button30Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,0);
     }
 
     @FXML
     void button31Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,1);
     }
 
     @FXML
     void button32Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,2);
     }
 
     @FXML
     void button33Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,3);
     }
 
     @FXML
     void button34Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,4);
     }
 
     @FXML
     void button35Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,5);
     }
 
     @FXML
     void button36Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[3][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(3,6);
     }
 
     @FXML
     void button40Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,0);
     }
 
     @FXML
     void button41Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,1);
     }
 
     @FXML
     void button42Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,2);
     }
 
     @FXML
     void button43Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,3);
     }
 
     @FXML
     void button44Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,4);
     }
 
     @FXML
     void button45Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,5);
     }
 
     @FXML
     void button46Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[4][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(4,6);
     }
 
     @FXML
     void button50Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][0];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,0);
     }
 
     @FXML
     void button51Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][1];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,1);
     }
 
     @FXML
     void button52Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][2];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,2);
     }
 
     @FXML
     void button53Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][3];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,3);
     }
 
     @FXML
     void button54Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][4];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,4);
     }
 
     @FXML
     void button55Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][5];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,5);
     }
 
     @FXML
     void button56Click(ActionEvent event) {
-        currentDayInt=currentMonthVariable.getMonthMatrix()[5][6];
-        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
-        String todaysEvents=events.getEvent(currentDate);
-        ActivitiesTextArea.setText(todaysEvents);
-        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);
+        buttonXXClick(5,6);
     }
 
     //Set the current month selection
@@ -721,7 +551,14 @@ public class CalendarController {
         buttonArray[5][6]=Button56;
     } 
 
-        
+    //Click on the xx button
+    void buttonXXClick(int buttonRow, int buttonColumn) {
+        currentDayInt=currentMonthVariable.getMonthMatrix()[buttonRow][buttonColumn];
+        currentDate= LocalDate.of(currentYearInt, currentMonthInt, currentDayInt);
+        String todaysEvents=events.getEvent(currentDate);
+        ActivitiesTextArea.setText(todaysEvents);
+        currentDayLabel.setText("Current day of\nthe month: "+currentDayInt);   
+    }
 
     //Hide the buttons of the days, and set the dates according to the month template
     public void setDatesOnButtons (MyMonth currentMonth) {
